@@ -1,38 +1,120 @@
-.App {
-  text-align: center;
+.headerDiv{
+  width:100%;
+  background: #2874F0;
+  /* min-width: 100%; */
+  /* position: fixed; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#navItems{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: nowrap;            ;
+}
+#mainImg{
+  width:10%;
+  height:90%;
+  padding:1% 0 1% 0;
+}
+#searchBar{
+  width:50%;
+  margin-left: 2%;
+  padding: 1%;
+  margin-top: 0.5%;
+  border: none;
+  border-radius: 2px 0 0 2px;
+}
+
+#search{
+  padding: 1%;
+  background-color: white;
+  border: none;
+  border-radius: 0 2px 2px 0;
+
+}
+.logBtn{
+  margin-left: 3%;
+  background-color: white;
+  color:#2874F0;
+  padding:1%;
+  border:none;
+  width:10%;
+  font-weight: bold;
+  border-radius: 2px;
+}
+.menutxt{
   color: white;
+  margin-left: 1.5%;
+  font-size: medium ;
+}
+.flex-container {
+  width: 80%;
+  margin-left: 10%;
+  display: flex;
+  background-color:white;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.flex-container > div {
+  background-color: #fcfcfc;
+  width: 8.5%;
+  margin: 10px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.flex-container > div img{
+  width: 100%;
+}
+.carousel slide{
+  margin:1%;
+}
+#dealsContainer{
+  display: flex;
+}
+#dealsContainer > div {
+  background-color: #f1f1f1;
+  font-size: 30px;
+}
+#dealsLeft{
+  width:85%;
+  margin:3px;
+
+}
+#dealsRight{
+  width:15%;
+  margin-top: 1px;
+  padding:2px;
+}#img2{
+  height:100%;
+  width:100%;
+}
+.timer{
+  padding:1%;
+  display: flex;
+  justify-content: space-between;
+}
+.viewbtn{
+  background-color: #2874F0;
+  border: none;
+  border-radius: 2px;
+  color: #f1f1f1;
+}
+h2{
+  margin-top: 1%;
+}
+#imgSlide2{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: white;
+}
+#imgSlide2 > div{
+  
+  margin: 10px;
+  text-align: center;
+ 
+  font-size: 30px;
+}
+#imgSlide2 img{
+  width: 100%;
+  height:100%;
+  margin:12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
